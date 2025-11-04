@@ -4,14 +4,14 @@ title: about
 permalink: /
 subtitle: "<a href='#'>Building models at the interface of perception and cognition.</a>"
 
-profile:
-  align: right
-  image: profile_picture.jpg
-  image_circular: false
-  more_info: >
-    <p>McGovern Institute for Brain Research</p>
-    <p>43 Vassar Street</p>
-    <p>Cambridge, MA 02319</p>
+# profile:
+#   align: right
+#   image: profile_picture.jpg
+#   image_circular: false
+#   more_info: >
+#     <p>McGovern Institute for Brain Research</p>
+#     <p>43 Vassar Street</p>
+#     <p>Cambridge, MA 02319</p>
 
 news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
