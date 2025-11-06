@@ -241,13 +241,13 @@ exclude:
   - lighthouse_results/
   - package.json
   - package-lock.json
-  - _pages/about_einstein.md
-  - _pages/blog.md
   - purgecss.config.js
   - README.md
   - readme_preview/
   - vendor
   - assets/jupyter/
+  - old_pages/blog.md
+  - old_pages/about_einstein.md
 keep_files:
   - CNAME
   - .nojekyll
