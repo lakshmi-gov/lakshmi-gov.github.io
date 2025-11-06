@@ -1,0 +1,111 @@
+/* === Strong overrides for about page layout & profile image vertical centering === */
+
+/* Target several possible layout wrappers used by al-folio & similar themes */
+.layout--about .wrapper,
+.layout-about .wrapper,
+.page-about .wrapper,
+.page--about .wrapper,
+.page.about .wrapper,
+.page.about .post,
+.page.about .content {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;    /* vertical centering */
+  gap: 1.5rem !important;
+  flex-wrap: wrap !important;
+}
+
+/* Fallback: target a generic container + post area */
+.post, .page__content, .content, .page-content {
+  text-align: justify !important;
+}
+
+/* Ensure the profile block behaves as a flex item and doesn't let text wrap underneath */
+.profile,
+.profile.float-right,
+.profile.float-left,
+.about-image,
+.author-profile {
+  flex-shrink: 0 !important;
+  margin: 0 0 0 2.0rem !important; /* default space when image on right */
+  max-width: 250px !important;
+  width: auto !important;
+  clear: none !important;
+  display: block !important;
+  align-self: center !important;     /* ensure profile itself is vertically centered */
+}
+
+/* If the profile is aligned left, adjust margin */
+.profile.float-left,
+.profile-left,
+.profile.align-left {
+  margin: 0 1.25rem 0 0 !important;
+}
+
+/* Make sure the img inside the profile scales nicely */
+.profile img,
+.author-profile img,
+.about-image img {
+  display: block !important;
+  max-width: 100% !important;
+  height: auto !important;
+  border-radius: 0px !important;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08) !important;
+}
+
+/* Ensure the textual content takes remaining width */
+.layout--about .page__content,
+.layout-about .page__content,
+.page-about .page__content,
+.page-about .post,
+.page__content,
+.main-content,
+.content {
+  flex: 1 1 auto !important;
+  min-width: 200px !important;
+}
+
+/* Mobile: stack vertically and center */
+@media (max-width: 768px) {
+  .layout--about .wrapper,
+  .layout-about .wrapper,
+  .page-about .wrapper,
+  .page.about .wrapper,
+  .page--about .wrapper {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .profile,
+  .profile img,
+  .about-image,
+  .author-profile {
+    margin: 0 auto 1rem auto !important;
+    width: 180px !important;
+  }
+
+  .layout--about .page__content,
+  .page-about .page__content {
+    text-align: justify !important;
+    max-width: 700px !important;
+  }
+}
+
+/* Make text smaller inside project cards */
+.project-card .card-body,
+.card-body {
+  font-size: 0.8rem !important;
+  line-height: 1.3 !important;
+}
+
+/* Make titles slightly smaller too */
+.project-card .card-title,
+.card-title {
+  font-size: 1.0rem !important;
+  font-weight: 600;
+  text-align: left !important;
+}
+
+.caption {
+  text-align: justify;
+}

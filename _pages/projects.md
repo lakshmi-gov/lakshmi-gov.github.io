@@ -2,7 +2,7 @@
 layout: page
 title: research
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: My research has two main goals. The first is to build AI systems that interact with the world in human-like ways. The second is to develop models whose internal representations reflect how the brain works. Below, you can find my current (and some of my past) research initiatives.
 nav: true
 nav_order: 1
 display_categories: [AI + Mind, AI + Brain, Applied AI]
