@@ -9,7 +9,10 @@ description: Please feel free to reach out to me if you've any questions. Or if 
 # toc:
 #   sidebar: left
 ---
-<iframe src="{{ 'assets/pdf/lng_cv_2025.pdf' | relative_url }}" width="100%" height="800px">
+
+{% capture cv_pdf_url %}{{ 'assets/pdf/lng_cv_2025.pdf' | relative_url }}{% endcapture %}
+
+<iframe src="{{ cv_pdf_url }}" width="100%" height="800px">
   This browser does not support PDFs. Please download the PDF to view it: 
-  <a href="{{ 'assets/pdf/lng_cv_2025.pdf' | relative_url }}">Download PDF</a>
+  <a href="{{ cv_pdf_url }}">Download PDF</a>
 </iframe>
