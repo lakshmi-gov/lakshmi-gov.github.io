@@ -199,7 +199,7 @@ collections:
     permalink: /:collection/:title/
   posts:
     output: false
-    
+
 announcements:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
@@ -249,8 +249,7 @@ exclude:
   - readme_preview/
   - vendor
   - assets/jupyter/
-  - old_pages/blog.md
-  - old_pages/about_einstein.md
+  - old_pages
 keep_files:
   - CNAME
   - .nojekyll
