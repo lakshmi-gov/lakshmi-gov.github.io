@@ -230,6 +230,7 @@ kramdown:
 # Includes & excludes
 include: ["_pages"]
 exclude:
+  - old_pages
   - bin/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
@@ -249,7 +250,6 @@ exclude:
   - readme_preview/
   - vendor
   - assets/jupyter/
-  - old_pages
 keep_files:
   - CNAME
   - .nojekyll
