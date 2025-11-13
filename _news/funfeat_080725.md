@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-A fun [social-media feature](https://www.instagram.com/p/DND6kPBMlbn/) by the McGovern Institute :people_with_bunny_ears:
+A fun [social-media feature](https://www.instagram.com/p/DND6kPBMlbn/) by the McGovern Institute 👯
