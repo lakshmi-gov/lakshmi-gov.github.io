@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: "<a href='#'>Building models at the interface of perception and cognition.</a>"
+subtitle: "Building models at the interface of perception and cognition."
 profile:
   align: right
   image: profile_picture.jpg
